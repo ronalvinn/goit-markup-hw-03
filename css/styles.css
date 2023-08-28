@@ -23,7 +23,12 @@
 body {
     font-family: 'Roboto', 'sans serif';
 
-    
+}
+
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .header-logo {
@@ -157,6 +162,15 @@ body {
     letter-spacing: 0.32px;
 }
 
+.team-item {
+border-radius: 0px 0px 4px 4px;
+background: var(--white );
+box-shadow: 
+0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 
 .team {
     background-color: var(--cloud);
@@ -224,9 +238,8 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    Height: 72px;
-    Width: 1158px;
-    margin: 0 auto;
+    border-bottom: 1px solid var(--cornflower);
+    background: var(--white);
 }
 
 .header-nav {
@@ -255,18 +268,24 @@ ul {
 
 .container-header {
     display: flex;
-    height: 72px;
+    padding: 24px 15px;
     flex-shrink: 0;
     justify-content: space-between;
+
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
+
 }
 
 .section {
     padding: 120px 0px;
+}
+
+.services{
+    padding-top: 0;
 }
 
 .features-item {
@@ -289,6 +308,20 @@ ul {
     padding: 32px 0px;
 }
 
+.project-identity{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: unset;
+}
+
+.team-identity {
+
+    border-radius: 0px 0px 4px 4px;
+}
+
 .portfolio-button-list{
     display: flex;
     justify-content: center;
@@ -300,18 +333,14 @@ ul {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     padding-bottom: 120px;
 
 }
 
-main{
-    border-top: 1px solid var(--cornflower);
-}
 
-.project-item {
-    border: 1px solid var(--cornflower);
-}
+
 
 
 
