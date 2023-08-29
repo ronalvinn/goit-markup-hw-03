@@ -154,6 +154,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 .team-item-role {
     color: var(--slate);
@@ -232,7 +233,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
     width: 264px;
-    padding-top: 17.5px;
+    margin-top: 17.5px;
 }
 
 .header {
